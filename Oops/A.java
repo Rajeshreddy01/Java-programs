@@ -1,15 +1,15 @@
 package Oops;
 
-public class This {
+public class A {
 	int i=10;
-	void m1() {
-		System.out.println(i);
+	public void m1() {
 		i=12;
+		System.out.println(this.i);
 		System.out.println(i);
 	}
 
 	public static void main(String[] args) {
-		This a = new This();
+		A a = new A();
 		a.m1();		
 	}
 

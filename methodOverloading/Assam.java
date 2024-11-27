@@ -11,7 +11,7 @@ public class Assam {
 	}
 	class mechanic{
 		public void service(car c) {
-			System.out.println("service available");
+			System.out.println("car service available");
 		}
 		public void service(bike b) {
 			System.out.println("bike service available");
